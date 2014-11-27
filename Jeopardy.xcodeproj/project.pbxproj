@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE1F54F1492A1830005CF88 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1BE1F54E1492A1830005CF88 /* icon.icns */; };
+		1BE1F5531492A7350005CF88 /* FinalJeopardy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1F5511492A7350005CF88 /* FinalJeopardy.m */; };
+		1BE1F5541492A7350005CF88 /* FinalJeopardy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE1F5521492A7350005CF88 /* FinalJeopardy.xib */; };
+		D63B0D57148EC3CE007ED88B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B0D56148EC3CE007ED88B /* UIKit.framework */; };
+		D63B0D59148EC3CE007ED88B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B0D58148EC3CE007ED88B /* Foundation.framework */; };
+		D63B0D5B148EC3CE007ED88B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B0D5A148EC3CE007ED88B /* CoreGraphics.framework */; };
+		D63B0D61148EC3CE007ED88B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D63B0D5F148EC3CE007ED88B /* InfoPlist.strings */; };
+		D63B0D63148EC3CE007ED88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0D62148EC3CE007ED88B /* main.m */; };
+		D63B0D67148EC3CE007ED88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0D66148EC3CE007ED88B /* AppDelegate.m */; };
+		D63B0D6A148EC3CE007ED88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0D69148EC3CE007ED88B /* ViewController.m */; };
+		D63B0D6D148EC3CE007ED88B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63B0D6B148EC3CE007ED88B /* ViewController.xib */; };
+		D63B0D74148ECD37007ED88B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B0D73148ECD37007ED88B /* background.png */; };
+		D63B0D78149017AD007ED88B /* AnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0D76149017AD007ED88B /* AnswerView.m */; };
+		D63B0D79149017AD007ED88B /* AnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63B0D77149017AD007ED88B /* AnswerView.xib */; };
+		D63B0D7C14902A41007ED88B /* Contestant.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0D7B14902A41007ED88B /* Contestant.m */; };
+		D63B0DC414926F03007ED88B /* ContestantEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0DC214926F03007ED88B /* ContestantEntryViewController.m */; };
+		D63B0DC514926F03007ED88B /* ContestantEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D63B0DC314926F03007ED88B /* ContestantEntryViewController.xib */; };
+		D63B0DC814927EB0007ED88B /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0DC714927EB0007ED88B /* Answer.m */; };
+		EA10F1C01A1D80DA00C4FCF0 /* profile-pic-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10F1BF1A1D80DA00C4FCF0 /* profile-pic-mask@2x.png */; };
+		EA10F1C21A1D80E800C4FCF0 /* profile-pic-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10F1C11A1D80E800C4FCF0 /* profile-pic-mask.png */; };
+		EA10F1C41A1D93B600C4FCF0 /* blots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA10F1C31A1D93B600C4FCF0 /* blots.jpg */; };
+		EA10F1C61A1D93C800C4FCF0 /* Backgroundredandblue.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10F1C51A1D93C800C4FCF0 /* Backgroundredandblue.png */; };
+		EA32981C1A25731300597BFD /* Lemona Logo New.png in Resources */ = {isa = PBXBuildFile; fileRef = EA32981B1A25731300597BFD /* Lemona Logo New.png */; };
+		EA32981E1A2573BB00597BFD /* Blood Immune System w.png in Resources */ = {isa = PBXBuildFile; fileRef = EA32981D1A2573BB00597BFD /* Blood Immune System w.png */; };
+		EA3298201A25748200597BFD /* Lemona Logo New 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA32981F1A25748200597BFD /* Lemona Logo New 2.png */; };
+		EA3298221A257C7C00597BFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3298211A257C7C00597BFD /* Images.xcassets */; };
+		EAB531A41A1BF9AF00199F50 /* Blurred Backgrounds (2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAB531A01A1BF9AF00199F50 /* Blurred Backgrounds (2).jpg */; };
+		EAB531A51A1BF9AF00199F50 /* Blurred Backgrounds (6).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAB531A11A1BF9AF00199F50 /* Blurred Backgrounds (6).jpg */; };
+		EAB531A61A1BF9AF00199F50 /* Blurred Backgrounds (7).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAB531A21A1BF9AF00199F50 /* Blurred Backgrounds (7).jpg */; };
+		EAB531A71A1BF9AF00199F50 /* Blurred Backgrounds (14).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAB531A31A1BF9AF00199F50 /* Blurred Backgrounds (14).jpg */; };
+		EAE28CFC1A1D7EE800A74C1F /* Button Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE28CFB1A1D7EE800A74C1F /* Button Blue.png */; };
+		EAE28CFE1A1D7F1300A74C1F /* Button Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE28CFD1A1D7F1300A74C1F /* Button Blue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BE1F54E1492A1830005CF88 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		1BE1F5501492A7350005CF88 /* FinalJeopardy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalJeopardy.h; sourceTree = "<group>"; };
+		1BE1F5511492A7350005CF88 /* FinalJeopardy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalJeopardy.m; sourceTree = "<group>"; };
+		1BE1F5521492A7350005CF88 /* FinalJeopardy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalJeopardy.xib; sourceTree = "<group>"; };
+		D63B0D52148EC3CE007ED88B /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63B0D56148EC3CE007ED88B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D63B0D58148EC3CE007ED88B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D63B0D5A148EC3CE007ED88B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D63B0D5E148EC3CE007ED88B /* Jeopardy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jeopardy-Info.plist"; sourceTree = "<group>"; };
+		D63B0D60148EC3CE007ED88B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D63B0D62148EC3CE007ED88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D63B0D64148EC3CE007ED88B /* Jeopardy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy-Prefix.pch"; sourceTree = "<group>"; };
+		D63B0D65148EC3CE007ED88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D63B0D66148EC3CE007ED88B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D63B0D68148EC3CE007ED88B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D63B0D69148EC3CE007ED88B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D63B0D6C148EC3CE007ED88B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D63B0D73148ECD37007ED88B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D63B0D75149017AD007ED88B /* AnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerView.h; sourceTree = "<group>"; };
+		D63B0D76149017AD007ED88B /* AnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerView.m; sourceTree = "<group>"; };
+		D63B0D77149017AD007ED88B /* AnswerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerView.xib; sourceTree = "<group>"; };
+		D63B0D7A14902A41007ED88B /* Contestant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contestant.h; sourceTree = "<group>"; };
+		D63B0D7B14902A41007ED88B /* Contestant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contestant.m; sourceTree = "<group>"; };
+		D63B0DC114926F03007ED88B /* ContestantEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestantEntryViewController.h; sourceTree = "<group>"; };
+		D63B0DC214926F03007ED88B /* ContestantEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestantEntryViewController.m; sourceTree = "<group>"; };
+		D63B0DC314926F03007ED88B /* ContestantEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestantEntryViewController.xib; sourceTree = "<group>"; };
+		D63B0DC614927EB0007ED88B /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		D63B0DC714927EB0007ED88B /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		EA10F1BF1A1D80DA00C4FCF0 /* profile-pic-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-pic-mask@2x.png"; sourceTree = "<group>"; };
+		EA10F1C11A1D80E800C4FCF0 /* profile-pic-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-pic-mask.png"; sourceTree = "<group>"; };
+		EA10F1C31A1D93B600C4FCF0 /* blots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blots.jpg; sourceTree = "<group>"; };
+		EA10F1C51A1D93C800C4FCF0 /* Backgroundredandblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backgroundredandblue.png; sourceTree = "<group>"; };
+		EA32981B1A25731300597BFD /* Lemona Logo New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemona Logo New.png"; sourceTree = "<group>"; };
+		EA32981D1A2573BB00597BFD /* Blood Immune System w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood Immune System w.png"; sourceTree = "<group>"; };
+		EA32981F1A25748200597BFD /* Lemona Logo New 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemona Logo New 2.png"; sourceTree = "<group>"; };
+		EA3298211A257C7C00597BFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAB531A01A1BF9AF00199F50 /* Blurred Backgrounds (2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (2).jpg"; sourceTree = "<group>"; };
+		EAB531A11A1BF9AF00199F50 /* Blurred Backgrounds (6).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (6).jpg"; sourceTree = "<group>"; };
+		EAB531A21A1BF9AF00199F50 /* Blurred Backgrounds (7).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (7).jpg"; sourceTree = "<group>"; };
+		EAB531A31A1BF9AF00199F50 /* Blurred Backgrounds (14).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blurred Backgrounds (14).jpg"; sourceTree = "<group>"; };
+		EAE28CFB1A1D7EE800A74C1F /* Button Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Blue.png"; sourceTree = "<group>"; };
+		EAE28CFD1A1D7F1300A74C1F /* Button Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Blue.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63B0D4F148EC3CE007ED88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63B0D57148EC3CE007ED88B /* UIKit.framework in Frameworks */,
+				D63B0D59148EC3CE007ED88B /* Foundation.framework in Frameworks */,
+				D63B0D5B148EC3CE007ED88B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63B0D47148EC3CE007ED88B = {
+			isa = PBXGroup;
+			children = (
+				D63B0D5C148EC3CE007ED88B /* Jeopardy */,
+				D63B0D55148EC3CE007ED88B /* Frameworks */,
+				D63B0D53148EC3CE007ED88B /* Products */,
+				EAE28CFB1A1D7EE800A74C1F /* Button Blue.png */,
+			);
+			sourceTree = "<group>";
+		};
+		D63B0D53148EC3CE007ED88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63B0D52148EC3CE007ED88B /* Jeopardy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63B0D55148EC3CE007ED88B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D63B0D56148EC3CE007ED88B /* UIKit.framework */,
+				D63B0D58148EC3CE007ED88B /* Foundation.framework */,
+				D63B0D5A148EC3CE007ED88B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63B0D5C148EC3CE007ED88B /* Jeopardy */ = {
+			isa = PBXGroup;
+			children = (
+				1BE1F54E1492A1830005CF88 /* icon.icns */,
+				D63B0D73148ECD37007ED88B /* background.png */,
+				D63B0D65148EC3CE007ED88B /* AppDelegate.h */,
+				D63B0D66148EC3CE007ED88B /* AppDelegate.m */,
+				D63B0D68148EC3CE007ED88B /* ViewController.h */,
+				D63B0D69148EC3CE007ED88B /* ViewController.m */,
+				D63B0D6B148EC3CE007ED88B /* ViewController.xib */,
+				EA10F1C51A1D93C800C4FCF0 /* Backgroundredandblue.png */,
+				EA10F1C31A1D93B600C4FCF0 /* blots.jpg */,
+				EAB531A01A1BF9AF00199F50 /* Blurred Backgrounds (2).jpg */,
+				EAB531A11A1BF9AF00199F50 /* Blurred Backgrounds (6).jpg */,
+				EAB531A21A1BF9AF00199F50 /* Blurred Backgrounds (7).jpg */,
+				EAB531A31A1BF9AF00199F50 /* Blurred Backgrounds (14).jpg */,
+				D63B0D5D148EC3CE007ED88B /* Supporting Files */,
+				D63B0D75149017AD007ED88B /* AnswerView.h */,
+				D63B0D76149017AD007ED88B /* AnswerView.m */,
+				D63B0D77149017AD007ED88B /* AnswerView.xib */,
+				EA10F1C11A1D80E800C4FCF0 /* profile-pic-mask.png */,
+				EA10F1BF1A1D80DA00C4FCF0 /* profile-pic-mask@2x.png */,
+				EAE28CFD1A1D7F1300A74C1F /* Button Blue.png */,
+				D63B0D7A14902A41007ED88B /* Contestant.h */,
+				D63B0D7B14902A41007ED88B /* Contestant.m */,
+				D63B0DC114926F03007ED88B /* ContestantEntryViewController.h */,
+				D63B0DC214926F03007ED88B /* ContestantEntryViewController.m */,
+				D63B0DC314926F03007ED88B /* ContestantEntryViewController.xib */,
+				EA32981F1A25748200597BFD /* Lemona Logo New 2.png */,
+				EA32981D1A2573BB00597BFD /* Blood Immune System w.png */,
+				D63B0DC614927EB0007ED88B /* Answer.h */,
+				D63B0DC714927EB0007ED88B /* Answer.m */,
+				1BE1F5501492A7350005CF88 /* FinalJeopardy.h */,
+				1BE1F5511492A7350005CF88 /* FinalJeopardy.m */,
+				1BE1F5521492A7350005CF88 /* FinalJeopardy.xib */,
+				EA32981B1A25731300597BFD /* Lemona Logo New.png */,
+				EA3298211A257C7C00597BFD /* Images.xcassets */,
+			);
+			path = Jeopardy;
+			sourceTree = "<group>";
+		};
+		D63B0D5D148EC3CE007ED88B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63B0D5E148EC3CE007ED88B /* Jeopardy-Info.plist */,
+				D63B0D5F148EC3CE007ED88B /* InfoPlist.strings */,
+				D63B0D62148EC3CE007ED88B /* main.m */,
+				D63B0D64148EC3CE007ED88B /* Jeopardy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63B0D51148EC3CE007ED88B /* Jeopardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63B0D70148EC3CE007ED88B /* Build configuration list for PBXNativeTarget "Jeopardy" */;
+			buildPhases = (
+				D63B0D4E148EC3CE007ED88B /* Sources */,
+				D63B0D4F148EC3CE007ED88B /* Frameworks */,
+				D63B0D50148EC3CE007ED88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeopardy;
+			productName = Jeopardy;
+			productReference = D63B0D52148EC3CE007ED88B /* Jeopardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63B0D49148EC3CE007ED88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ThoughtWorks Inc.";
+				TargetAttributes = {
+					D63B0D51148EC3CE007ED88B = {
+						DevelopmentTeam = 45J9WDN6PB;
+					};
+				};
+			};
+			buildConfigurationList = D63B0D4C148EC3CE007ED88B /* Build configuration list for PBXProject "Jeopardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D63B0D47148EC3CE007ED88B;
+			productRefGroup = D63B0D53148EC3CE007ED88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63B0D51148EC3CE007ED88B /* Jeopardy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63B0D50148EC3CE007ED88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA10F1C61A1D93C800C4FCF0 /* Backgroundredandblue.png in Resources */,
+				EA32981C1A25731300597BFD /* Lemona Logo New.png in Resources */,
+				EAB531A41A1BF9AF00199F50 /* Blurred Backgrounds (2).jpg in Resources */,
+				EA10F1C21A1D80E800C4FCF0 /* profile-pic-mask.png in Resources */,
+				D63B0D61148EC3CE007ED88B /* InfoPlist.strings in Resources */,
+				D63B0D6D148EC3CE007ED88B /* ViewController.xib in Resources */,
+				EA10F1C01A1D80DA00C4FCF0 /* profile-pic-mask@2x.png in Resources */,
+				D63B0D74148ECD37007ED88B /* background.png in Resources */,
+				D63B0D79149017AD007ED88B /* AnswerView.xib in Resources */,
+				EA3298221A257C7C00597BFD /* Images.xcassets in Resources */,
+				EAB531A61A1BF9AF00199F50 /* Blurred Backgrounds (7).jpg in Resources */,
+				D63B0DC514926F03007ED88B /* ContestantEntryViewController.xib in Resources */,
+				1BE1F54F1492A1830005CF88 /* icon.icns in Resources */,
+				EAB531A71A1BF9AF00199F50 /* Blurred Backgrounds (14).jpg in Resources */,
+				EA3298201A25748200597BFD /* Lemona Logo New 2.png in Resources */,
+				EA32981E1A2573BB00597BFD /* Blood Immune System w.png in Resources */,
+				1BE1F5541492A7350005CF88 /* FinalJeopardy.xib in Resources */,
+				EA10F1C41A1D93B600C4FCF0 /* blots.jpg in Resources */,
+				EAE28CFC1A1D7EE800A74C1F /* Button Blue.png in Resources */,
+				EAE28CFE1A1D7F1300A74C1F /* Button Blue.png in Resources */,
+				EAB531A51A1BF9AF00199F50 /* Blurred Backgrounds (6).jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63B0D4E148EC3CE007ED88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63B0D63148EC3CE007ED88B /* main.m in Sources */,
+				D63B0D67148EC3CE007ED88B /* AppDelegate.m in Sources */,
+				D63B0D6A148EC3CE007ED88B /* ViewController.m in Sources */,
+				D63B0D78149017AD007ED88B /* AnswerView.m in Sources */,
+				D63B0D7C14902A41007ED88B /* Contestant.m in Sources */,
+				D63B0DC414926F03007ED88B /* ContestantEntryViewController.m in Sources */,
+				D63B0DC814927EB0007ED88B /* Answer.m in Sources */,
+				1BE1F5531492A7350005CF88 /* FinalJeopardy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D63B0D5F148EC3CE007ED88B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63B0D60148EC3CE007ED88B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D63B0D6B148EC3CE007ED88B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63B0D6C148EC3CE007ED88B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63B0D6E148EC3CE007ED88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D63B0D6F148EC3CE007ED88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63B0D71148EC3CE007ED88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D63B0D72148EC3CE007ED88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jeopardy/Jeopardy-Prefix.pch";
+				INFOPLIST_FILE = "Jeopardy/Jeopardy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63B0D4C148EC3CE007ED88B /* Build configuration list for PBXProject "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63B0D6E148EC3CE007ED88B /* Debug */,
+				D63B0D6F148EC3CE007ED88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63B0D70148EC3CE007ED88B /* Build configuration list for PBXNativeTarget "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63B0D71148EC3CE007ED88B /* Debug */,
+				D63B0D72148EC3CE007ED88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63B0D49148EC3CE007ED88B /* Project object */;
+}
